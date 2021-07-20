@@ -1,0 +1,134 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  position: relative;
+  /* top: -22px; */
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: aquamarine;
+}
+.header {
+  /* border: 2px solid black; */
+  display: flex;
+  box-sizing: border-box;
+  align-self: center;
+  width: 500px;
+  padding: 0 80px;
+  padding-left: 90px;
+  margin: 0 auto;
+  margin-bottom: 0;
+}
+.Main-block {
+  /* border: 3px solid white; */
+  position: relative;
+  justify-content: space-between;
+  display: flex;
+  width: 70%;
+  margin: 20px auto;
+  margin-top: 0;
+}
+
+.LeftBar {
+  /* position: relative; */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  /* border: 3px solid black; */
+}
+
+.individual-colors-red,
+.individual-colors-green,
+.individual-colors-blue {
+  /* position: relative; */
+  background-color: white;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+  border: 5px solid white;
+  border-radius: 50%;
+}
+
+.individual-colors-red {
+  border-top-color: red;
+}
+
+.individual-colors-green {
+  border-top-color: green;
+}
+
+.individual-colors-blue {
+  border-top-color: blue;
+}
+
+.RedColorBlock,
+.GreenColorBlock,
+.BlueColorBlock {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.MainPart {
+  /* border: 3px solid black; */
+}
+
+.MainColorBlock,
+.AltColorBlock {
+  /* position: relative; */
+
+  width: 200px;
+  height: 200px;
+  margin: 50px auto;
+  /* border: 5px solid transparent; */
+  border-radius: 50%;
+}
+
+.MainColorBlock {
+  background-color: white;
+  border: 5px solid white;
+}
+
+.AltColorBlock {
+  background-color: black;
+  border: 5px solid black;
+}
+
+.MainColorHash,
+.AltColorHash {
+  display: flex;
+  justify-content: center;
+  padding: 60px 0 0 0;
+}
+
+.RightBar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 200px;
+  margin: 20px 0;
+  padding: 5px;
+  /* border: 5px solid black; */
+}
+
+.ButtonRandom,
+.ButtonRed,
+.ButtonGreen,
+.ButtonBlue {
+  display: block;
+  margin: 40px 10px;
+  width: 90%;
+  height: 40px;
+}
+
+.ButtonRandom {
+  margin-top: 60px;
+}
