@@ -17,7 +17,7 @@ function MainPart(props) {
           navigator.clipboard.writeText(props.main);
         }}
       >
-        <h1 class="MainColorHash">{props.main}</h1>
+        <h1 className="MainColorHash">{props.main}</h1>
       </div>
 
       <div
@@ -27,7 +27,7 @@ function MainPart(props) {
           navigator.clipboard.writeText(props.alt);
         }}
       >
-        <h1 class="AltColorHash">{props.alt}</h1>
+        <h1 className="AltColorHash">{props.alt}</h1>
       </div>
 
       {/* <p>Click on background to copy background color</p> */}
